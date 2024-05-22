@@ -6,8 +6,7 @@ import numpy as np
 from random import randint
 
 #create multiple pages
-st.set_page_config(page_title = "This is a Multipage WebApp") 
-st.sidebar.success("Select Any Page from here")
+st.sidebar.success("Next Page from here")
 
 #filtering cat data function
 def filter_cat_data(df,name,origin,weight_range,life_range):
